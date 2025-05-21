@@ -1,27 +1,18 @@
-- skill:
-  name: Cisco Switching
-  level: 95%
-- skill:
-  name: Cisco Wireless
-  level: 80%
-- skill:
-  name: Cisco Routing
-  level: 70%
-- skill:
-  name: Windows Systems
-  level: 95%
-- skill:
-  name: Linux Systems
-  level: 75%  
-- skill:
-  name: Office 365
-  level: 95%
-- skill:
-  name: Palo Alto Firewalls
-  level: 95%
-- skill:
-  name: Project Management
-  level: 85%
-- skill:
-  name: System/Network Architecture
-  level: 75%
+- name: Cisco Switching
+  category: "Networking"
+- name: Cisco Wireless
+  category: "Networking"
+- name: Cisco Routing
+  category: "Networking"
+- name: Windows Systems
+  category: "Systems Administration"
+- name: Linux Systems
+  category: "Systems Administration"
+- name: Office 365
+  category: "Collaboration Platforms"
+- name: Palo Alto Firewalls
+  category: "Networking"
+- name: Project Management
+  category: "Project Management"
+- name: System/Network Architecture
+  category: "Architecture"

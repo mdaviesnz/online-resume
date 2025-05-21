@@ -1,30 +1,47 @@
-- experience:
-  role: IT Helpdesk Administrator 
+- role: IT Helpdesk Administrator 
   time: 2007 - 2009
   company: OceanaGold
-  details: "Troubleshooting office systems and computer equipment. Developed interpersonal skills working on the frontline helpdesk interacting with other employees from all parts of the company while developing company knowledge and knowledge of key tools and core business systems relating to production at the mine.<br>
-  Worked with: Microsoft Office, Windows Server, Microsoft Sharepoint, Microsoft Exchange, Microsoft SMS Server, Vmware Esx."
-- experience:
-  role: IT Systems Administrator
+  location: "Location not specified"
+  achievements:
+    - "Troubleshooting office systems and computer equipment."
+    - "Developed interpersonal skills working on the frontline helpdesk interacting with other employees from all parts of the company while developing company knowledge and knowledge of key tools and core business systems relating to production at the mine."
+    - "Worked with: Microsoft Office, Windows Server, Microsoft Sharepoint, Microsoft Exchange, Microsoft SMS Server, Vmware Esx."
+- role: IT Systems Administrator
   time: 2009 - 2014
   company: OceanaGold
-  details: "Progressed into system administration maintaining support services and systems around the company. Worked extensively with Microsoft Exchange including migrations and upgrades. Developed knowledge of HP server systems, including HP Blade and fibre channel SAN. Begun developing networking skills working with existing Cisco office networks in place and building point to point wireless networks around the operating mine sites. Planned and managed migration of existing messaging and collaboration systems to Office 365.<br> 
-  Developed tools such as Microsoft Configuration Manager to better manage company computers and servers. As primary Configmgr administrator developed application and operating system deployment resulting in much improved management abilities. Setup and encouraged use of ITIL practices with Microsoft Service Manager. Planned and setup full systems at remote offices including running workshops for knowledge transfer to other IT teams around the company. <br>
-  Involved in the selection, migration to, and management of Palo Alto firewalls around the company. <br>
-  Worked with: HP servers and storage, Cisco networking, Cisco Call Manager, Ubiquiti wireless, Microsoft Office 365, Microsoft Configuration Manager, Microsoft Service Manager, Palo Alto Firewalls"
-- experience:
-  role: Senior Systems Administrator
+  location: "Location not specified"
+  achievements:
+    - "Progressed into system administration maintaining support services and systems around the company."
+    - "Worked extensively with Microsoft Exchange including migrations and upgrades."
+    - "Developed knowledge of HP server systems, including HP Blade and fibre channel SAN."
+    - "Begun developing networking skills working with existing Cisco office networks in place and building point to point wireless networks around the operating mine sites."
+    - "Planned and managed migration of existing messaging and collaboration systems to Office 365."
+    - "Developed tools such as Microsoft Configuration Manager to better manage company computers and servers."
+    - "As primary Configmgr administrator developed application and operating system deployment resulting in much improved management abilities."
+    - "Setup and encouraged use of ITIL practices with Microsoft Service Manager."
+    - "Planned and setup full systems at remote offices including running workshops for knowledge transfer to other IT teams around the company."
+    - "Involved in the selection, migration to, and management of Palo Alto firewalls around the company."
+    - "Worked with: HP servers and storage, Cisco networking, Cisco Call Manager, Ubiquiti wireless, Microsoft Office 365, Microsoft Configuration Manager, Microsoft Service Manager, Palo Alto Firewalls"
+- role: Senior Systems Administrator
   time: 2014 - 2016
   company: OceanaGold
-  details: "Moved into a senior role and acted as a integral source of knowledge within a growing IT team supporting and developing key systems during the intense growth of the company. Became more involved in the overall IT strategy, long term planning, budgeting and governance within the company while continuing to support and maintain company systems and services. <br>
-  Involved in the integration and migration of acquired networks and systems from other companies during several merger and acquisition activities. <br> 
-  Used learnt skills and prior knowledge to architect systems and networks. Worked on major projects such as the research and development of a full network design for a new underground mine, and the setup of and migration to cloud services for all corporate services.<br> 
-  Worked with: IBM Softlayer, Cisco networking including wireless, Polycom and Pexip video conferencing, RHEL/Ubuntu Linux"
-- experience:
-  role: Senior Network and Infrastructure Engineer
+  location: "Location not specified"
+  achievements:
+    - "Moved into a senior role and acted as a integral source of knowledge within a growing IT team supporting and developing key systems during the intense growth of the company."
+    - "Became more involved in the overall IT strategy, long term planning, budgeting and governance within the company while continuing to support and maintain company systems and services."
+    - "Involved in the integration and migration of acquired networks and systems from other companies during several merger and acquisition activities."
+    - "Used learnt skills and prior knowledge to architect systems and networks."
+    - "Worked on major projects such as the research and development of a full network design for a new underground mine, and the setup of and migration to cloud services for all corporate services."
+    - "Worked with: IBM Softlayer, Cisco networking including wireless, Polycom and Pexip video conferencing, RHEL/Ubuntu Linux"
+- role: Senior Network and Infrastructure Engineer
   time: 2016 - Current
   company: OceanaGold
-  details: "Moved into a new role with a networking focus with the goal of developing knowledge depth. Directly responsible for management of networks at corporate offices and WAN connections to all company locations. Deployed tools and systems to ensure and maintain performant networks depended on by the company. Progressed towards creating centrally managed tools for Cisco networks using Cisco Prime Infrastructure an Identity Services Engine (ISE) and for Palo Alto firewalls with Panorama. <br>
-  Involved in planning, network and systems design, and project management for the setup of a new corporate office. <br> 
-  Started research and planning for implementation of future WAN technologies including SD-WAN with focus on Cisco Viptela. <br>
-  Worked with: Cisco Prime, ISE, APIC-EM, Palo Alto Panorama, Appneta Pathview"
+  location: "Location not specified"
+  achievements:
+    - "Moved into a new role with a networking focus with the goal of developing knowledge depth."
+    - "Directly responsible for management of networks at corporate offices and WAN connections to all company locations."
+    - "Deployed tools and systems to ensure and maintain performant networks depended on by the company."
+    - "Progressed towards creating centrally managed tools for Cisco networks using Cisco Prime Infrastructure an Identity Services Engine (ISE) and for Palo Alto firewalls with Panorama."
+    - "Involved in planning, network and systems design, and project management for the setup of a new corporate office."
+    - "Started research and planning for implementation of future WAN technologies including SD-WAN with focus on Cisco Viptela."
+    - "Worked with: Cisco Prime, ISE, APIC-EM, Palo Alto Panorama, Appneta Pathview"

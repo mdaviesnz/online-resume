@@ -1,0 +1,109 @@
+/* styles-modern.css */
+@theme-color: #007bff;
+@text-color: #343a40;
+@text-color-secondary: #6c757d;
+@text-grey: #adb5bd;
+@sidebar-bg: #f8f9fa;
+@sidebar-text-color: #343a40;
+@sidebar-link-color: #007bff;
+@sidebar-profile-bg: rgba(0, 0, 0, 0.05);
+@skill-bar-color: #007bff;
+@heart: #fd7e14;
+@divider: #dee2e6;
+@smoky-white: #f8f9fa;
+// The following variables are not in the new palette but were in the old one.
+// I'm commenting them out for now, in case they are used somewhere.
+// @lighter-grey: #ccc; 
+// @darker-grey: #666;
+
+/* Skills */
+.skillset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: lighten(@theme-color, 35%);
+  color: @text-color;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Card styling for Experience and Projects sections */
+.experiences-section .item,
+.projects-section .item {
+  background-color: #fff;
+  border: 1px solid @divider;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Experience section item layout */
+.experiences-section .item .upper-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px; /* Add some space below the upper row */
+}
+
+.experiences-section .item .job-title {
+  flex-grow: 1; /* Allow job title to take available space */
+  margin-bottom: 0; /* Remove default margin if any */
+}
+
+.experiences-section .item .time {
+  margin-left: 15px; /* Add some space between title and time */
+  white-space: nowrap; /* Prevent time from wrapping */
+  margin-bottom: 0; /* Remove default margin if any */
+}
+
+/* Tech Tags for Projects */
+.tech-tag {
+  background-color: lighten(@text-color-secondary, 30%);
+  color: @text-color;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.technologies {
+  margin-top: 10px;
+}
+
+/* Skill Categories */
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: @text-color;
+  margin-bottom: 10px;
+  border-bottom: 1px solid @divider;
+  padding-bottom: 5px;
+}
+
+/* Adjustments for Experience section lists */
+.experiences-section .item .details ul.achievements-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.experiences-section .item .details ul.achievements-list li {
+  margin-bottom: 5px;
+}
+
+/* Ensure company location span is styled subtly */
+.experiences-section .item .company .location {
+  font-size: 0.9em;
+  color: @text-color-secondary;
+}

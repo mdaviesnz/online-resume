@@ -1,24 +1,19 @@
-{% if site.data.skills %}
+{% if site.data.skills and site.data.skills.size > 0 %}
 <section class="skills-section section">
 
-  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+  <h2 class="section-title"><i class="fas fa-rocket"></i>Skills &amp; Proficiency</h2>
 
-  <div class="skillset">
-
-    {% for skill in site.data.skills %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    {% endfor %}
-
-  </div>
+  {% assign skills_by_category = site.data.skills | group_by: "category" %}
+  {% for category_group in skills_by_category %}
+  <div class="skill-category">
+    <h3 class="category-title">{{ category_group.name | default: "Other Skills" }}</h3>
+    <div class="skillset">
+      {% for skill_item in category_group.items %}
+      <span class="skill-tag">{{ skill_item.name }}</span>
+      {% endfor %}
+    </div><!--//skillset-->
+  </div><!--//skill-category-->
+  {% endfor %}
 
 </section><!--//skills-section-->
 {% endif %}

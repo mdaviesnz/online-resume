@@ -1,15 +1,23 @@
-projects:
-  - project:
-    title: Office 365
-    tagline: "Assisted with planning and migration of key business systems from existing on-premise Microsoft Exchange and Sharepoint to SAAS offerings from Microsoft. Provided cost savings to the company with reduced administration and maintenance overhead and ensured support for future company growth. "
-  - project:
-    title: Branch Office Setup in El Salvador
-    tagline: "Involved in all stages of a project to setup a new remote company office location in San Salvador, including planning/design/specification, procurement, deployment and setup."
-  - project:
-    title: Corporate Services Cloud Migration
-    link: "http://http://www.softlayer.com/"
-    tagline: "Key role in a project to move key corporate services from on-premise hosting to SAAS/IAAS services provided by IBM Softlayer with the goal of providing improved corporate service performance to the global company while reducing the need for capital expenditure on server and network infrastructure. "
-  - project:
-    title: Didipio Underground Mine Network
-    link: "http://www.oceanagold.com/our-business/philippines/didipio-mine/"
-    tagline: "A technical advisory role in the product to develop an underground mine at the OceanaGold Didipio mine in the Philippines. Involved research into vendor and key technology options for a network to provide connectivity for voice communication, vehicle telemetry and worker safety. Technical input resulted in the delivery of a highly robust and future-proof communications network when the mine began production in 2017." 
+- title: Office 365
+  description: "Assisted with planning and migration of key business systems from existing on-premise Microsoft Exchange and Sharepoint to SAAS offerings from Microsoft. Provided cost savings to the company with reduced administration and maintenance overhead and ensured support for future company growth. "
+  technologies_used:
+    - "Microsoft Exchange"
+    - "Microsoft Sharepoint"
+    - "SAAS"
+- title: Branch Office Setup in El Salvador
+  description: "Involved in all stages of a project to setup a new remote company office location in San Salvador, including planning/design/specification, procurement, deployment and setup."
+  technologies_used: []
+- title: Corporate Services Cloud Migration
+  link: "http://http://www.softlayer.com/" # This link seems to have a typo "http://http://"
+  description: "Key role in a project to move key corporate services from on-premise hosting to SAAS/IAAS services provided by IBM Softlayer with the goal of providing improved corporate service performance to the global company while reducing the need for capital expenditure on server and network infrastructure. "
+  technologies_used:
+    - "IBM Softlayer"
+    - "SAAS"
+    - "IAAS"
+- title: Didipio Underground Mine Network
+  link: "http://www.oceanagold.com/our-business/philippines/didipio-mine/"
+  description: "A technical advisory role in the product to develop an underground mine at the OceanaGold Didipio mine in the Philippines. Involved research into vendor and key technology options for a network to provide connectivity for voice communication, vehicle telemetry and worker safety. Technical input resulted in the delivery of a highly robust and future-proof communications network when the mine began production in 2017."
+  technologies_used:
+    - "Networking"
+    - "Voice Communication Systems"
+    - "Vehicle Telemetry"
